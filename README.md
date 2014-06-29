@@ -1,6 +1,6 @@
 # MonitorIt
 
-MonitorIt MonitorIt is a gem that can be help to monitor request performance. This Gem has two components, MonitorIt is agent/client and MonitorData is a ruby application that save statistics on which MonitorIt is installed. It is suggest that you clone and configure MonitorData application first for that GOTO http://github.com/zohaib-sarwar-confiz/MonitorData.
+MonitorIt MonitorIt is a gem that can be help to monitor request performance. This Gem has two components, MonitorIt is agent/client and MonitorData is a ruby application that save statistics on which MonitorIt is installed. It is suggest that you clone and configure MonitorData application first for that GOTO http://github.com/zohaib-sarwar-confiz/monitordata.
 
 ## Installation
 
