@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MonitorIt</title>
+  <%= stylesheet_link_tag    "monitor_it/application", :media => "all" %>
+  <%= javascript_include_tag "monitor_it/application" %>
+  <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
