@@ -31,7 +31,9 @@ If have not clone and configure the MonitorData application that record statisti
 If you have configure monitor_it gem and clone and configure MonitorData application than you are done just explore few page from you application following instruction presented in next paragraph.
 
 ## Request Stats Monitoring
-MonitorIt gem monitor yours request stats and send them to MonitorData server. You can open MonitorData url in browsers and can view stats of request OR open url of application on which monitor_it gem configured application_url/monitor_it.
+MonitorIt gem monitor yours request stats and send them to MonitorData server. You can open MonitorData url in browsers and can view stats of request OR open url of application on which monitor_it gem configured application_url/monitor_it. Sample snapshot
+![Persistence of Memory](http://www.virtualdali.com/assets/paintings/31PersistenceOfMemory.jpg)
+
 
 ## Contributing
 
