@@ -24,6 +24,12 @@ After you install MonitorIt and add it to your Gemfile, you need to run the gene
 
 MonitorIt is used as a rack middleware and you have to do some changes in config/initializers/monitor_it.rb file, replace 'AppName' with your application name, replace 'localhost' with the domain name at which MonitorData application is running and replace '3000' with port on which MonitorData application is listening.
 
+    AppName::Application.config.middleware.use MonitorIt::Rack,
+        :subscribe_me => { :options => ["process_action.action_controller"],
+                     :enabled_environments => ["development", "production"],
+                     :host => "http://localhost",
+                     :port => "3000"}
+
 ## Install MonitorData
 
 If have not clone and configure the MonitorData application that record statistics of yours application Goto http://github.com/zohaib-sarwar-confiz/MonitorData.
